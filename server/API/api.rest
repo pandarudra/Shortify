@@ -1,0 +1,16 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/get
+Content-Type: application/json
+
+{
+  "url": "https://hono.dev/",
+  "uset": "hono"
+}
+
+###
+
+GET http://localhost:3000/hono
+
